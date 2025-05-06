@@ -7,7 +7,20 @@
     E.g. 2: If gallons is 5, the method returns 18.925.
  */
 
+import java.util.Scanner;
 
 public class Task4 {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter an amount of gallons: ");
+        double gallons = scanner.nextDouble();
+        scanner.close();
+
+        System.out.print(gallons + " gallons equals " + gallonsToLiters(gallons) + " liters");
+    }
+
+    public static double gallonsToLiters(double gallons) {
+        double liters = gallons * 3.785;
+        return liters;
+    }
 }
