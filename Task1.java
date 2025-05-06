@@ -10,6 +10,13 @@
 
 
 public class Task1 {
-
-    
+    public int biggestOddNum(double input) {
+        if (input % 2 == 0) { // Checking if number is even.
+            int result = (int) input - 1;
+            return result;
+        } else {
+            int res = (int) input - 2;
+            return res;
+        }
+    }
 }
