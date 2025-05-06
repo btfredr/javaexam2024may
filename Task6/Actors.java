@@ -39,4 +39,16 @@ public class Actors extends CompanyEmployee {
     public boolean isAvailable() {
         return isAvailable;
     }
+
+    // Overriding print method
+    @Override
+    public void print() {
+        System.out.println("Actor information: ");
+        System.out.println("ID: " + getId());
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Age: " + getAge());
+        System.out.println("Genre: " + getGenre());
+        System.out.println("Is available: " + isAvailable());
+    }
 }
