@@ -14,7 +14,7 @@ public class Task1 {
         if (input % 2 == 0) { // Checking if number is even.
             int result = (int) input - 1;
             return result;
-        } else {
+        } else { // If input is odd, subtract 2 from the input value
             int res = (int) input - 2;
             return res;
         }
