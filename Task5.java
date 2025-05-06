@@ -16,10 +16,10 @@
 
 public class Task5 {
     public static void main(String[] args) {
-
+        analyzeString("Madam, I'm Adam");
     }
 
-    public void analyzeString(String input) {
+    public static void analyzeString(String input) {
         
         int uppercase = 0;
         int lowercase = 0;
