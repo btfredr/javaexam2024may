@@ -14,6 +14,10 @@ package Task6;
 public class Directors extends CompanyEmployee {
     private String lastMovieDirected;
 
+    public Directors(int id, String firstName, String lastName, int age, String lastMovieDirected) {
+        super(id, firstName, lastName, age);
+        this.lastMovieDirected = lastMovieDirected;
+    }
 
     public void printName() {
         System.out.println("Directors information: ");

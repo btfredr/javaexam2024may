@@ -11,5 +11,11 @@ package Task6;
  */
 
 public class Test {
-    
+    public static void main(String[] args) {
+        Actors actor = new Actors(1, "Ola", "Nordmann", 57, "Action", true);
+        Directors director = new Directors(2, "Kari", "Nordmann", 34, "Børning");
+
+        actor.print();
+        director.printAllInfo();
+    }
 }
