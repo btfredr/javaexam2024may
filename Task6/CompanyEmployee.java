@@ -115,5 +115,14 @@ public class CompanyEmployee {
         this.age = age;
     }
 
+    // Print method
+
+    public void print() {
+        System.out.println("Employee information: ");
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Age: " + getAge());
+    }
+
     
 }
