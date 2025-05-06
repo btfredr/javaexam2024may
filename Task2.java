@@ -9,6 +9,10 @@
     1 2
     1 2 3
     1 2 3 4
+
+    The program should prompt the user to enter the desired height and then output the pyramid
+    accordingly. Each level of the pyramid should have increasing numbers starting from 1, up to the
+    number of the row.
  */
 
 import java.util.Scanner;
@@ -21,8 +25,8 @@ public class Task2 {
 
         scanner.close();
 
-        for(int i = 1; i <= height; i++) {
-            for (int j = 1; j <= i; j++) {
+        for(int i = 1; i <= height; i++) { // Bestemmer antall rader.
+            for (int j = 1; j <= i; j++) { // Skriver ut tallene.
                 System.out.print(j);
             }
         }
