@@ -24,9 +24,19 @@ public class Actors extends CompanyEmployee {
     private String genre;
     private boolean isAvailable;
 
+    // Method constructor
     public Actors (int id, String firstName, String lastName, int age, String genre, boolean isAvailable) {
         super(id, firstName, lastName, age);
         this.genre = genre;
         this.isAvailable = isAvailable;
+    }
+
+    // Getters
+    public String getGenre() {
+        return genre;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
     }
 }
