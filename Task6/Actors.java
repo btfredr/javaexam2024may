@@ -21,5 +21,7 @@ package Task6;
  */
 
 public class Actors extends CompanyEmployee {
-    
+    private String genre;
+    private boolean isAvailable;
+
 }
