@@ -12,5 +12,20 @@ package Task6;
     movie directed.
  */
 public class Directors extends CompanyEmployee {
-    
+    private String lastMovieDirected;
+
+
+    public void printName() {
+        System.out.println("Directors information: ");
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+    }
+
+    public void printAllInfo() {
+        System.out.println("Directors information: ");
+        System.out.println("First Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Age: " + getAge());
+        System.out.println("Last Movie Directed: " + lastMovieDirected);
+    }
 }
